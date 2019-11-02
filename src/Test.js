@@ -16,7 +16,7 @@ function Test() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Test page
         </a>
       </header>
     </div>

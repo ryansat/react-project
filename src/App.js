@@ -23,6 +23,9 @@ export default function App() {
             <li className="App-li">
             <a >  <Link to="/portofolio" className="App-link">Portofolio</Link> </a>
             </li>
+            <li className="App-li">
+            <a >  <Link to="/test" className="App-link">Test</Link> </a>
+            </li>
           </ul>
         </nav>
 
@@ -35,7 +38,7 @@ export default function App() {
           <Route path="/portofolio">
             <Portofolio />
           </Route>
-          <Route path="/">
+          <Route path="/Test">
             <Test />
           </Route>
         </Switch>
